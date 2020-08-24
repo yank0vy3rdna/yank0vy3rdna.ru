@@ -1,10 +1,13 @@
 {
-    "name": "yank0vy3rdna.ru",
-    "version": "1.0.0",
-    "description": "yank0vy3rdna website",
-    "author": "yank0vy3rdna <yankovyerdna@yandex.ru>",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js"
-    }
+  "name": "yank0vy3rdna.ru",
+  "version": "1.0.0",
+  "description": "yank0vy3rdna website",
+  "author": "yank0vy3rdna <yankovyerdna@yandex.ru>",
+  "main": "app.js",
+  "dependencies": {
+    "serve": "~11.3.2"
+  },
+  "scripts": {
+    "start": "serve -l tcp://0.0.0.0:9123 sources/"
   }
+}

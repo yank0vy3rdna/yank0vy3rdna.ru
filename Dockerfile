@@ -11,4 +11,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 9123
-CMD [ "node", "app.js" ]
+
+CMD [ "npm", "start" ]
